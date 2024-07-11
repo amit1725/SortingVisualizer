@@ -351,7 +351,7 @@ const App = () => {
               <input
                 type="range"
                 min="1"
-                max="10"
+                max="50"
                 value={speed}
                 onChange={(e) => setSpeed(e.target.value)}
                 className="slider"
